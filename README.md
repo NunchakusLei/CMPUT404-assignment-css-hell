@@ -22,3 +22,12 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+modifications
+=============
+
+Added one line of code at the end of head part in each html file. The specific changed shown below,
+```
+<link href="style.css" rel="stylesheet" type="text/css">
+```
+This line will import my custom CSS. Since it's at the end of head tag, it will overwrite the default style in html.
+
