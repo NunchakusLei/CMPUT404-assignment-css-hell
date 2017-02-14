@@ -41,7 +41,7 @@ The specific component that have been overwrite is the paragraph, headers, image
 - **body**
     Applied an background image by url.
     
-_ **hr**
+- **hr**
     Reset height to 0px. Set background color and border color to black. Applied border radius as 10px. Set border width to 2px, and set opacity to 0.5.
 
 - **H1,H2,H3,H4,H5,H6 (headers)**
