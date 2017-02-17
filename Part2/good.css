@@ -88,7 +88,7 @@ section .section-text {
 }
 
 .header-bg .key_describe .name {
-    font-family: fantasy;
+    font-family: fantasy，sans-serif;
     font-size: 32pt;
     margin-bottom: 0px;
     padding-bottom: 0px;

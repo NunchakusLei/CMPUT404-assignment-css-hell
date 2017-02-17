@@ -1,0 +1,150 @@
+html {
+    /*
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    */
+}
+
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+section .section-header {
+    font-size: 46pt;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+#side-bar {
+    position: fixed;
+    top: 140px;
+    left: 8px;
+    padding: 12px;
+    width: 190px;
+    background-color: #CDDC39;
+/*    background-color: #FFCC80;*/
+    opacity: 0.9;
+    z-index: 3;
+    border-radius: 8px;
+}
+
+#side-bar .side-bar-name {
+    font-weight: 900;
+    font-size: 14pt;
+    line-height: 90%;
+}
+
+#side-bar .side-bar-pt {
+    padding-top: 8px;
+}
+
+#side-bar .side-bar-pt .text {
+/*    text-indent: 1em;*/
+    padding-left: 8px;
+}
+
+section .container {
+    padding: 100px 80px 100px 260px;
+}
+
+section .section-text {
+    text-indent: 2em;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18pt;
+    line-height: 120%;
+}
+
+.header-bg {
+    background: url(header_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    min-height: 610px;
+    min-width: 512px;
+    width: 100%;
+    height: auto;
+
+/*    position: absolute;*/
+    top: 0;
+    left: 0;
+    /*    z-index: -1*/
+}
+
+.header-bg .key_describe {
+    position: absolute;
+    top: 420px;
+    left: 70%;
+    right:auto;
+    text-align: right;
+    width: 240px
+}
+
+.header-bg .key_describe .name {
+    font-family: fantasy;
+    font-size: 32pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.header-bg .key_describe .short-identity {
+    position: absolute;
+    top: 85px;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-family: 'Sansita', sans-serif;
+}
+
+.header-bg .box {
+    position: relative;
+    text-align: center;
+    background-color: #b09e8f;
+    top: 598px;
+    margin: 0 128px 0 128px;
+    padding-left: 100px;
+    height: 24px;
+    vertical-align: center;
+    border-radius: 8px;
+}
+
+.header-bg .box .button {
+    position: block;
+    display: inline;
+    top:-4px;
+    padding: 16px 32px 16px 32px;
+    margin: 128px 6px 0px 6px;
+    font-size: 18pt;
+    background-color: #FF9800;
+    font-family: 'Sansita', sans-serif;
+    font-style: oblique;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.header-bg .box .button a {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.intro-container {
+    background-color: #f5f2eb;
+/*    background-blend-mode: overlay;*/
+    background-size: cover;
+    color: azure;
+    min-height: 45em;
+    /*    position: relative;*/
+    display: block;
+}
+
+section.light {
+    background-color: #f5f2eb;
+}
