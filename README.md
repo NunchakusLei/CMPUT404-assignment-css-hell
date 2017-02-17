@@ -21,6 +21,16 @@ repository and (C) 2013 Abram Hindle, 2017 (C) Chenrui Lei visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+The file good.html used the font from [Google Font](https://fonts.google.com/). As per listed in [Google Fonts attribution list](https://fonts.google.com/attribution), those font are 
+
+- Copyright 2011 The Anton Project Authors 
+- Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
+
+All Rights Reserved under the SIL Open Font License, 1.1.
+
+- Digitized data Copyright (c) 2010-2012 Google Corporation.
+
+All Rights Reserved under the Apache 2.0 license.
 
 Modifications
 =============
