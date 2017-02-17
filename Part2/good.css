@@ -29,8 +29,10 @@ section .section-header {
     left: 8px;
     padding: 12px;
     width: 190px;
-    background-color: #CDDC39;
+/*    background-color: #CDDC39;*/
 /*    background-color: #FFCC80;*/
+/*    background-color: #FF9800;*/
+    background-color: #FFE0B2;
     opacity: 0.9;
     z-index: 3;
     border-radius: 8px;
@@ -47,7 +49,6 @@ section .section-header {
 }
 
 #side-bar .side-bar-pt .text {
-/*    text-indent: 1em;*/
     padding-left: 8px;
 }
 
@@ -71,11 +72,6 @@ section .section-text {
     min-width: 512px;
     width: 100%;
     height: auto;
-
-/*    position: absolute;*/
-    top: 0;
-    left: 0;
-    /*    z-index: -1*/
 }
 
 .header-bg .key_describe {
@@ -84,19 +80,19 @@ section .section-text {
     left: 70%;
     right:auto;
     text-align: right;
-    width: 240px
+    width: 280px
 }
 
 .header-bg .key_describe .name {
-    font-family: fantasy，sans-serif;
+    font-family: fantasy, serif;
+    text-transform: uppercase;
     font-size: 32pt;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    line-height: 100%;
 }
 
 .header-bg .key_describe .short-identity {
-    position: absolute;
-    top: 85px;
     margin: 0;
     padding: 0;
     font-size: 12pt;
@@ -137,11 +133,9 @@ section .section-text {
 
 .intro-container {
     background-color: #f5f2eb;
-/*    background-blend-mode: overlay;*/
     background-size: cover;
     color: azure;
     min-height: 45em;
-    /*    position: relative;*/
     display: block;
 }
 
