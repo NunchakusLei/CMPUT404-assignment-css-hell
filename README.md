@@ -15,9 +15,9 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle (C) 2013, Chnerui Lei (C) 2017 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
+repository and (C) 2013 Abram Hindle, 2017 (C) Chenrui Lei visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
@@ -39,7 +39,7 @@ The specific component that have been overwrite is the paragraph, headers, image
     The text indent changes to 2em. Padding left and right have been set to 10em. The font-family is now cursive and font size been changed to 15pt.
     
 - **body**:
-    Applied an background image by url.
+    Applied an background image by url. And, applied a filter on it.
     
 - **hr**:
     Reset height to 0px. Set background color and border color to black. Applied border radius as 10px. Set border width to 2px, and set opacity to 0.5.
@@ -49,3 +49,5 @@ The specific component that have been overwrite is the paragraph, headers, image
 
 - **img (image)**:
     Applied sepia filter and set opacity to 0.7.
+    
+
