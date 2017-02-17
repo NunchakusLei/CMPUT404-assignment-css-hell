@@ -1,9 +1,5 @@
 html {
-    /*
-    padding: 0px;
-    margin: 0px;
-    background-size: cover;
-    */
+    width: 100%;
 }
 
 body {
@@ -20,35 +16,6 @@ section {
 section .section-header {
     font-size: 46pt;
     text-align: center;
-    font-family: 'Anton', sans-serif;
-}
-
-#side-bar {
-    position: fixed;
-    top: 140px;
-    left: 8px;
-    padding: 12px;
-    width: 190px;
-    background-color: #CDDC39;
-/*    background-color: #FFCC80;*/
-    opacity: 0.9;
-    z-index: 3;
-    border-radius: 8px;
-}
-
-#side-bar .side-bar-name {
-    font-weight: 900;
-    font-size: 14pt;
-    line-height: 90%;
-}
-
-#side-bar .side-bar-pt {
-    padding-top: 8px;
-}
-
-#side-bar .side-bar-pt .text {
-/*    text-indent: 1em;*/
-    padding-left: 8px;
 }
 
 section .container {
@@ -62,20 +29,45 @@ section .section-text {
     line-height: 120%;
 }
 
+#side-bar {
+    position: fixed;
+    top: 40px;
+    left: 8px;
+    padding: 12px;
+    width: 190px;
+    background-color: #fDDCf9;
+    border-radius: 0px;
+    color: #FF3D00;
+    height: 100%;
+}
+
+#side-bar .side-bar-name {
+    font-weight: 900;
+    font-size: 28pt;
+    line-height: 90%;
+}
+
+#side-bar .side-bar-pt {
+    padding-top: 8px;
+    font-size: 22pt;
+}
+
+#side-bar .side-bar-pt .text {
+/*    text-indent: 1em;*/
+    padding-left: 8px;
+}
+
+
 .header-bg {
     background: url(header_bg.jpg);
+    background-blend-mode: color-burn;
     background-size: cover;
     background-position: center center;
-
+/*    filter: sepia();*/
     min-height: 610px;
     min-width: 512px;
     width: 100%;
     height: auto;
-
-/*    position: absolute;*/
-    top: 0;
-    left: 0;
-    /*    z-index: -1*/
 }
 
 .header-bg .key_describe {
@@ -89,28 +81,30 @@ section .section-text {
 
 .header-bg .key_describe .name {
     font-family: fantasy;
-    font-size: 32pt;
+    font-size: 46pt;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    line-height: 100%;
+    color: #0309F4;
+    font-weight: 900;
 }
 
 .header-bg .key_describe .short-identity {
     position: absolute;
-    top: 85px;
+    top: 18px;
     margin: 0;
     padding: 0;
-    font-size: 12pt;
-    font-family: 'Sansita', sans-serif;
+    font-size: 30pt;
 }
 
 .header-bg .box {
     position: relative;
     text-align: center;
-    background-color: #b09e8f;
+    background-color: #7B1FA2;
     top: 598px;
-    margin: 0 128px 0 128px;
-    padding-left: 100px;
-    height: 24px;
+/*    margin: 0 128px 0 128px;*/
+/*    padding-left: 100px;*/
+    height: 50px;
     vertical-align: center;
     border-radius: 8px;
 }
@@ -122,7 +116,7 @@ section .section-text {
     padding: 16px 32px 16px 32px;
     margin: 128px 6px 0px 6px;
     font-size: 18pt;
-    background-color: #FF9800;
+    background-color: #FF3D00;
     font-family: 'Sansita', sans-serif;
     font-style: oblique;
     font-weight: 900;
@@ -131,20 +125,24 @@ section .section-text {
 
 .header-bg .box .button a {
     font-style: normal;
-    color: white;
+    color: #FFFF00;
     text-decoration: none;
 }
 
 .intro-container {
-    background-color: #f5f2eb;
-/*    background-blend-mode: overlay;*/
+    background-color: #76FF03;
     background-size: cover;
     color: azure;
     min-height: 45em;
-    /*    position: relative;*/
     display: block;
 }
 
+section {
+    background-color: #FFEB3B;
+    color: #03A9F4;
+}
+
 section.light {
-    background-color: #f5f2eb;
+    background-color: #18FFFF;
+    color: #F50057;
 }
