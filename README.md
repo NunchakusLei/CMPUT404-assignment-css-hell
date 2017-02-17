@@ -35,7 +35,7 @@ All Rights Reserved under the Apache 2.0 license.
 Modifications
 =============
 
-Added one line of code at the end of head part in each html file. The specific changed shown below,
+Delated all the ```<style>``` tag and it's contents. Added one line of code at the end of head part in each html file. The specific changed shown below,
 
 ```html
 <link href="style.css" rel="stylesheet" type="text/css">
